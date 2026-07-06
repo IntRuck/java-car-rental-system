@@ -1,0 +1,16 @@
+src\
+└── com\
+    └── example\
+        └── carrental\
+            ├── AddVehicleGUI.java
+            ├── Car.java
+            ├── Customer.java
+            ├── DatabaseConnector.java
+            ├── DeleteVehicleGUI.java
+            ├── EditVehicleGUI.java
+            ├── MainGUI.java
+            ├── Rental.java
+            ├── RentalActions.java
+            ├── Vehicle.java
+            ├── VehicleInventory.java
+            └── ViewVehiclesGUI.java

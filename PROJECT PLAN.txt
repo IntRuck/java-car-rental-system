@@ -1,0 +1,60 @@
+DATABASE
+1.Client - idClient(autoincrement), name, NRIC, contact, email
+2.Order - idOrder(autoincrement), startDate, duration(day), idClient
+3.Payment - idPayment(autoincrement), payType, amount, Date, Reference
+4.Vehicle - idVehicle(int), type, brand, model, ratePerDay, status
+
+
+
+IDEA
+MAIN INTERFACE GUI
+HI WELCOME
+Enter name
+enter NRIC
+enter contact
+enter email
+(ORDER)
+(ADMIN ONLY)
+
+
+
+
+ADMIN ONLY GUI - ACT AS ADD VEHICLE GUI
+Enter idVehicle
+Enter type
+Enter brand
+Enter model
+Enter ratePerDay 
+Enter status
+(SAVE)
+(VIEW VEHICLE)
+
+
+
+
+VIEW VEHICLE GUI
+Enter idVehicle - do SEARCH SQL
+- Just print Vehicle info on GUI
+(EDIT VEHICLE) - click, (if status==maintenance change to available) or (if status==available change to maintenance) of car above
+(DELETE VEHICLE) - Just delete vehicle data from database of car above
+
+
+
+
+ORDER GUI
+- Just print Vehicle info on GUI
+(NEXT CAR) - click, see next car info above
+Enter startDate
+Enter duration(day)
+Enter NRIC
+(PAYMENT)
+
+
+
+
+PAYMENT GUI
+Enter payType
+Enter amount
+Enter Date
+Enter Reference
+(SEE RECEIPT) - just do print all client, order, vehicle, and payment data

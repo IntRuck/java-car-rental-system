@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="954" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-0" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="170" y="-90" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-1" value="# CustomerID: int&lt;div&gt;# NRIC: String&lt;div&gt;# name: String&lt;/div&gt;&lt;div&gt;# contact: int&lt;/div&gt;&lt;div&gt;# email: String&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-0" vertex="1">
+          <mxGeometry y="26" width="200" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-0" vertex="1">
+          <mxGeometry y="90" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-3" value="+ registerCustomer(): void&lt;div&gt;+ viewRentalHistory(): List&amp;lt;Order&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-0" vertex="1">
+          <mxGeometry y="100" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-4" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="320" width="330" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-5" value="# orderID: int&lt;div&gt;# vehicleID: String&lt;/div&gt;&lt;div&gt;# startDate: Date&lt;/div&gt;&lt;div&gt;# endDate: Date&lt;/div&gt;&lt;div&gt;# status: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-4" vertex="1">
+          <mxGeometry y="26" width="330" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-4" vertex="1">
+          <mxGeometry y="110" width="330" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-7" value="+ createOrder(customer: Customer, vehicle: Vehicle): void&lt;div&gt;+ cancelOrder(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-4" vertex="1">
+          <mxGeometry y="120" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-8" value="Vehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="110" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-9" value="# plateNumber: String&amp;nbsp;&lt;div&gt;# brand: String&lt;/div&gt;&lt;div&gt;# model: String&lt;/div&gt;&lt;div&gt;# status: String&lt;/div&gt;&lt;div&gt;# ratePerDay: Double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-8" vertex="1">
+          <mxGeometry y="26" width="230" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-8" vertex="1">
+          <mxGeometry y="110" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-11" value="+ check Availability(): Boolean&lt;div&gt;+ calculateRentalFee(days: int): Double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-8" vertex="1">
+          <mxGeometry y="118" width="230" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-12" value="Transaction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="360" y="510" width="250" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-13" value="- transactionID: int&lt;div&gt;- orderID: String&lt;/div&gt;&lt;div&gt;- paymentMode: String&lt;/div&gt;&lt;div&gt;- amountPaid: Double&lt;/div&gt;&lt;div&gt;- paymentDate: Date&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-12" vertex="1">
+          <mxGeometry y="26" width="250" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-12" vertex="1">
+          <mxGeometry y="110" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-15" value="+ processPayment(order: Order): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-12" vertex="1">
+          <mxGeometry y="118" width="250" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-19" value="+ generateReceipt(order: Order): Receipt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-12" vertex="1">
+          <mxGeometry y="150" width="250" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-20" value="Admin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="600" y="-90" width="240" height="150" as="geometry">
+            <mxRectangle x="290" y="200" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-21" value="- adminID: int&lt;div&gt;- password: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-20" vertex="1">
+          <mxGeometry y="26" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-20" vertex="1">
+          <mxGeometry y="70" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZeUxTvuINlWVIIS-WsCK-23" value="+ addVehicle(vehicle: Vehicle): void&lt;div&gt;+removeVehicle(vehicleID: String): void&lt;/div&gt;&lt;div&gt;+ editVehicle(&lt;span style=&quot;background-color: initial;&quot;&gt;vehicleID: String): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+generateReceipt(order: Order): Receipt&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="ZeUxTvuINlWVIIS-WsCK-20" vertex="1">
+          <mxGeometry y="78" width="240" height="72" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
